@@ -57,12 +57,34 @@ body {
   color: var(--orange);
 }
 
-.header .navbar a{
+.header .navbar a {
   font-size: 1.7rem;
   margin: 0 1rem;
   color: var(--black);
 }
 
-.header .navbar a:hover{
+.header .navbar a:hover {
   color: var(--orange);
+}
+
+.header .icons div {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: 0.5rem;
+  background: #eee;
+  color: var(--black);
+  font-size: 2rem;
+  margin-right: 0.3rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header .icons div:hover {
+  background: var(--orange);
+  color: #fff;
+}
+
+#menu-btn {
+  display: none;
 }
